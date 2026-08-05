@@ -38,7 +38,7 @@ nsis:
 
 publish:
   provider: github
-  owner: sharpmotion
+  owner: b79y
   repo: flow-quality
 
 compression: maximum
