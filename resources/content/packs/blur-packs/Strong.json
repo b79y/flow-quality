@@ -1,0 +1,8 @@
+{
+  "preset": "strong",
+  "intensity": 8,
+  "trailLength": 7,
+  "samples": 10,
+  "direction": "auto",
+  "smartSpeed": true
+}

@@ -1,0 +1,24 @@
+__DEVICE__
+ColorSpace = "NoOp"
+Title = "Bleach Pass"
+Description = "Desaturated, lifted blacks"
+
+__CONST__
+
+__END__
+
+__KERNEL__
+
+__DEVICE__ float3 apply(float3 c)
+{
+    float l = dot(c, make_float3(0.2126, 0.7152, 0.0722)); c = l + (c - l) * 0.62; c.r = 0.06 + c.r * 0.9; c.g = 0.06 + c.g * 0.9; c.b = 0.06 + c.b * 0.9; return c;
+}
+
+__DEVICE__ void transform(PS_INPUT input, __TEXTURE__ tex, __CALLBACK_INSTANCE__ instance, float4 result)
+{
+    float3 col = _fetchPixel(tex, input.pos).rgb;
+    col = apply(col);
+    result.rgb = col;
+    result.a = 1.0;
+}
+__END__

@@ -1,0 +1,8 @@
+{
+  "preset": "light",
+  "intensity": 2,
+  "trailLength": 2,
+  "samples": 3,
+  "direction": "auto",
+  "smartSpeed": true
+}

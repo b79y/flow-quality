@@ -1,0 +1,2 @@
+resources/bin/.gitkeep
+resources/content/generated/.gitkeep

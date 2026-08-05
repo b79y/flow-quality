@@ -1,0 +1,44 @@
+appId: com.flowquality.studio
+productName: FLOW Quality
+copyright: Copyright © 2026 FLOW Quality
+directories:
+  output: release
+  buildResources: build
+
+files:
+  - dist/**
+  - dist-electron/**
+  - package.json
+  - "!node_modules/ffmpeg-static/ffmpeg.exe"
+  - "!node_modules/ffprobe-static/ffprobe"
+  - "!node_modules/@ffprobe-installer/win32-x64/ffprobe.exe"
+
+extraResources:
+  - from: resources/bin
+    to: bin
+  - from: resources/content
+    to: content
+
+win:
+  target:
+    - target: nsis
+      arch:
+        - x64
+  executableName: FLOWQuality
+  artifactName: ${productName}-${version}-Setup.${ext}
+
+nsis:
+  oneClick: false
+  perMachine: false
+  allowToChangeInstallationDirectory: true
+  createDesktopShortcut: always
+  createStartMenuShortcut: true
+  shortcutName: FLOW Quality
+  deleteAppDataOnUninstall: false
+
+publish:
+  provider: github
+  owner: sharpmotion
+  repo: flow-quality
+
+compression: maximum

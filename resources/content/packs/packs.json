@@ -1,0 +1,292 @@
+[
+  {
+    "id": "lut-cinematic",
+    "name": "Cinematic LUT Pack",
+    "category": "lut",
+    "description": "Five pro color grades: vintage, teal & orange, sunset, noir and pastel.",
+    "sizeMB": 3.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Cinematic-Vintage.cube",
+        "name": "Cinematic-Vintage.cube",
+        "sizeBytes": 431331
+      },
+      {
+        "path": "Teal-Orange.cube",
+        "name": "Teal-Orange.cube",
+        "sizeBytes": 970380
+      },
+      {
+        "path": "Warm-Sunset.cube",
+        "name": "Warm-Sunset.cube",
+        "sizeBytes": 431325
+      },
+      {
+        "path": "Mood-Noir.cube",
+        "name": "Mood-Noir.cube",
+        "sizeBytes": 431323
+      },
+      {
+        "path": "Soft-Pastel.cube",
+        "name": "Soft-Pastel.cube",
+        "sizeBytes": 970380
+      }
+    ]
+  },
+  {
+    "id": "lut-mobile",
+    "name": "Creator Mobile LUT Pack",
+    "category": "lut",
+    "description": "Punchy, platform-first looks for TikTok, Shorts and Reels.",
+    "sizeMB": 1.6,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "TikTok-Pop.cube",
+        "name": "TikTok-Pop.cube",
+        "sizeBytes": 431324
+      },
+      {
+        "path": "Crisp-Daylight.cube",
+        "name": "Crisp-Daylight.cube",
+        "sizeBytes": 431328
+      },
+      {
+        "path": "Neon-Nights.cube",
+        "name": "Neon-Nights.cube",
+        "sizeBytes": 431325
+      },
+      {
+        "path": "Bleach-Desat.cube",
+        "name": "Bleach-Desat.cube",
+        "sizeBytes": 431326
+      }
+    ]
+  },
+  {
+    "id": "dctl-resolve",
+    "name": "DaVinci Resolve DCTL Pack",
+    "category": "presetResolve",
+    "description": "Real .dctl color transforms for Resolve - soft fade, punch, filmic contrast and bleach.",
+    "sizeMB": 0.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Filmic-Contrast.dctl",
+        "name": "Filmic-Contrast.dctl",
+        "sizeBytes": 602
+      },
+      {
+        "path": "Soft-Fade.dctl",
+        "name": "Soft-Fade.dctl",
+        "sizeBytes": 571
+      },
+      {
+        "path": "Punchy-Saturation.dctl",
+        "name": "Punchy-Saturation.dctl",
+        "sizeBytes": 581
+      },
+      {
+        "path": "Bleach-Pass.dctl",
+        "name": "Bleach-Pass.dctl",
+        "sizeBytes": 565
+      }
+    ]
+  },
+  {
+    "id": "blur-packs",
+    "name": "Motion Blur Preset Packs",
+    "category": "motionBlur",
+    "description": "Tuned motion-blur settings for games, montages and fast transitions.",
+    "sizeMB": 0.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Cinematic.json",
+        "name": "Cinematic.json",
+        "sizeBytes": 126
+      },
+      {
+        "path": "Light.json",
+        "name": "Light.json",
+        "sizeBytes": 122
+      },
+      {
+        "path": "Strong.json",
+        "name": "Strong.json",
+        "sizeBytes": 124
+      },
+      {
+        "path": "Action.json",
+        "name": "Action.json",
+        "sizeBytes": 129
+      }
+    ]
+  },
+  {
+    "id": "overlay-basic",
+    "name": "Overlay Essentials",
+    "category": "overlay",
+    "description": "Vignette, warm light leak, scanlines, letterbox bars and a rule-of-thirds grid.",
+    "sizeMB": 0.3,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Vignette.png",
+        "name": "Vignette.png",
+        "sizeBytes": 179149
+      },
+      {
+        "path": "Light-Leak.png",
+        "name": "Light-Leak.png",
+        "sizeBytes": 113131
+      },
+      {
+        "path": "Scanlines.png",
+        "name": "Scanlines.png",
+        "sizeBytes": 13386
+      },
+      {
+        "path": "Letterbox.png",
+        "name": "Letterbox.png",
+        "sizeBytes": 10248
+      },
+      {
+        "path": "Rule-of-Thirds.png",
+        "name": "Rule-of-Thirds.png",
+        "sizeBytes": 20926
+      }
+    ]
+  },
+  {
+    "id": "soundfx-transitions",
+    "name": "Transition Sound FX",
+    "category": "soundfx",
+    "description": "Six production whooshes, risers and hits - perfect for cuts and transitions.",
+    "sizeMB": 0.5,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Whoosh-Short.wav",
+        "name": "Whoosh-Short.wav",
+        "sizeBytes": 44144
+      },
+      {
+        "path": "Whoosh-Long.wav",
+        "name": "Whoosh-Long.wav",
+        "sizeBytes": 105884
+      },
+      {
+        "path": "Swoosh-Fast.wav",
+        "name": "Swoosh-Fast.wav",
+        "sizeBytes": 26504
+      },
+      {
+        "path": "Riser-Uplift.wav",
+        "name": "Riser-Uplift.wav",
+        "sizeBytes": 141164
+      },
+      {
+        "path": "Impact-Hit.wav",
+        "name": "Impact-Hit.wav",
+        "sizeBytes": 61782
+      },
+      {
+        "path": "Shimmer-Sparkle.wav",
+        "name": "Shimmer-Sparkle.wav",
+        "sizeBytes": 123522
+      }
+    ]
+  },
+  {
+    "id": "guide-upload",
+    "name": "Platform Upload Guides",
+    "category": "exportGuide",
+    "description": "The exact upload recipes for TikTok, Shorts and Reels.",
+    "sizeMB": 0.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "TikTok-Guide.md",
+        "name": "TikTok-Guide.md",
+        "sizeBytes": 307
+      },
+      {
+        "path": "YouTube-Shorts-Guide.md",
+        "name": "YouTube-Shorts-Guide.md",
+        "sizeBytes": 261
+      },
+      {
+        "path": "Instagram-Reels-Guide.md",
+        "name": "Instagram-Reels-Guide.md",
+        "sizeBytes": 288
+      }
+    ]
+  },
+  {
+    "id": "template-thumbnails",
+    "name": "Creator Templates",
+    "category": "template",
+    "description": "Storyboard, hook and thumbnail checklists to speed up your workflow.",
+    "sizeMB": 0.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Storyboard-Template.csv",
+        "name": "Storyboard-Template.csv",
+        "sizeBytes": 173
+      },
+      {
+        "path": "Hook-Swipe-File.md",
+        "name": "Hook-Swipe-File.md",
+        "sizeBytes": 171
+      },
+      {
+        "path": "Thumbnail-Checklist.md",
+        "name": "Thumbnail-Checklist.md",
+        "sizeBytes": 156
+      }
+    ]
+  },
+  {
+    "id": "preset-premiere",
+    "name": "Premiere Pro Import Pack",
+    "category": "presetPremiere",
+    "description": "How to apply every bundled LUT with Lumetri Color, plus export presets.",
+    "sizeMB": 0.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Install-Guide.md",
+        "name": "Install-Guide.md",
+        "sizeBytes": 354
+      },
+      {
+        "path": "YouTube-Preset.md",
+        "name": "YouTube-Preset.md",
+        "sizeBytes": 107
+      }
+    ]
+  },
+  {
+    "id": "preset-ae",
+    "name": "After Effects Export Pack",
+    "category": "presetAe",
+    "description": "Render settings for smooth 60 FPS motion-blur exports from AE.",
+    "sizeMB": 0.1,
+    "version": "1.0",
+    "files": [
+      {
+        "path": "Render-Guide.md",
+        "name": "Render-Guide.md",
+        "sizeBytes": 238
+      },
+      {
+        "path": "FrameBlend-Notes.md",
+        "name": "FrameBlend-Notes.md",
+        "sizeBytes": 150
+      }
+    ]
+  }
+]

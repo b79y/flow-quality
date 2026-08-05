@@ -1,0 +1,8 @@
+{
+  "preset": "cinematic",
+  "intensity": 4,
+  "trailLength": 4,
+  "samples": 6,
+  "direction": "auto",
+  "smartSpeed": true
+}
